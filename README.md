@@ -2,21 +2,21 @@
 The primary objective of this lab is to create a secure, data-driven proof-of-concept (PoC) application. The application utilizes Azure SQL Database’s Always Encrypted feature to protect sensitive database columns (such as patient names and SSNs) both at rest and in transit. To maximize security, the cryptographic keys used to encrypt the database columns are securely isolated within Azure Key Vault, and the application authenticates securely using an identity registered in Microsoft Entra ID (formerly Azure Active Directory).
 
 ##Objectives(Completed):
-Exercise 1: Deploy the base infrastructure from an ARM template
+#Exercise 1: Deploy the base infrastructure from an ARM template
 - Task 1: Deploy an Azure VM and an Azure SQL database
-Exercise 2: Configure the Key Vault resource with a key and a secret
+#Exercise 2: Configure the Key Vault resource with a key and a secret
 - Task 2: Create and configure a Key Vault
 - Task 3: Add a key to the Key Vault
 - Task 4: Add a secret to the Key Vault
-Exercise 3: Configure an Azure SQL database and a data-driven application
-- Task 1: Enable a client application to access the Azure SQL Database service.
-- Task 2: Create a policy allowing the application access to the Key Vault.
-- Task 3: Retrieve SQL Azure database ADO.NET Connection String
-- Task 4: Log on to the Azure VM running Visual Studio 2019 and SQL Management Studio 19
-- Task 5: Create a table in the SQL Database and select data columns for encryption
-Exercise 4: Demonstrate the use of Azure Key Vault in encrypting the Azure SQL database
-- Task 1: Install Visual Studio 2026
-- Task 2: Run a data-driven application to demonstrate the use of Azure Key Vault in encrypting the Azure SQL database
+#Exercise 3: Configure an Azure SQL database and a data-driven application
+- Task 5: Enable a client application to access the Azure SQL Database service.
+- Task 6: Create a policy allowing the application access to the Key Vault.
+- Task 7: Retrieve SQL Azure database ADO.NET Connection String
+- Task 8: Log on to the Azure VM running Visual Studio 2019 and SQL Management Studio 19
+- Task 9: Create a table in the SQL Database and select data columns for encryption
+#Exercise 4: Demonstrate the use of Azure Key Vault in encrypting the Azure SQL database
+- Task 10: Install Visual Studio 2026
+- Task 11: Run a data-driven application to demonstrate the use of Azure Key Vault in encrypting the Azure SQL database
 
 
 ##Technologies Used:
